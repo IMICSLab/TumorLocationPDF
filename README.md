@@ -85,10 +85,6 @@ We have provided the codes for the models and PDF calculation. Please feel free 
 
 
 
-```diff
-- Note: each module has its own README file and the structure of subdirectories is unified.
-```
-
 <!-- LICENSE -->
 ## License
 
@@ -114,3 +110,4 @@ Project Link: [https://arxiv.org/abs/2210.07287](https://arxiv.org/abs/2210.0728
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [tumor-location-pdf]: images/fig1.png
+[pytoch]: https://img.shields.io/badge/PyTorch-EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white
