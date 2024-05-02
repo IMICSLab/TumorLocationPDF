@@ -78,13 +78,13 @@ def loc_clf_experiment(N_repeats, ROIs, labels, pIDs):
     
         predictions = []
         for i in range(len(test_dset)):
-            patient_p_lgg = np.sum(np.multiply(test_dset.ROIs[i], pdf_lgg_loc))
-            patient_p_hgg = np.sum(np.multiply(test_dset.ROIs[i], pdf_hgg_loc))
-            if patient_p_hgg>patient_p_lgg:
-                predictions.append(min(0.5+patient_p_hgg, 1))
+            patient_p_fusion = np.sum(np.multiply(test_dset.ROIs[i], pdf_lgg_loc))
+            patient_p_mutation = np.sum(np.multiply(test_dset.ROIs[i], pdf_hgg_loc))
+            if patient_p_mutation>patient_p_fusion:
+                predictions.append(min(0.5+patient_p_mutation, 1))
                 #predictions.append(1)
             else:
-                predictions.append(max(0.5-patient_p_lgg, 0))
+                predictions.append(max(0.5-patient_p_fusion, 0))
                 #predictions.append(0)
         Perfs.append(roc_auc_score(test_dset.labels, predictions))
         print("test AUC: {}".format(roc_auc_score(test_dset.labels, predictions)))
