@@ -19,7 +19,7 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Team 37</h3>
+  <h3 align="center">an IMICS lab project</h3>
 
   <p align="center">
     Improving Deep Learning Models for Pediatric Low-Grade Glioma Tumors Molecular Subtype Identification Using 3D Probability Distributions of Tumor Location
