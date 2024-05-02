@@ -98,6 +98,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## Contacts
 
 * Ernest Namdar - [@LinkedIn](https://www.linkedin.com/in/ernest-namdar/) - ernest.namdar@utoronto.ca
+* Farzad Khalvati - [Intelligent Medical Informatics Computing Systems (IMICS) Lab] (https://imics.ca/)
 
 Project Link: [https://arxiv.org/abs/2210.07287](https://arxiv.org/abs/2210.07287)
 
